@@ -140,7 +140,7 @@ a:link {
 }
 
 input { 
-    border-color:#116d30;
+    border-color:#9056d8;
     border-radius:3px;
     border-width:3px;
     transition:.5s;
@@ -175,4 +175,12 @@ input:invalid {
     width:15%;
     height:30%;
     border-radius:10px;
+    user-select:none;
+    transition:.5s;
+}
+
+#button:hover {
+    background-color: rgb(172, 219, 219);
+    color:rgb(62, 62, 92);
+    transition:.5s;
 }
